@@ -1,8 +1,16 @@
-name: "my-website"
+name: "Sanchit Singh"
+#output_dir: "."
 navbar:
-  title: "My Website"
+  title: "My website"
   left:
     - text: "Home"
       href: index.html
     - text: "About"
       href: about.html
+  right:
+    - icon: fa-github fa-lg
+      href: http://github.com/sanchit-singh
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
